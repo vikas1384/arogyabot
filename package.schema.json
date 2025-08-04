@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Package.json",
+  "type": "object",
+  "required": ["name", "version"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the package."
+    },
+    "version": {
+      "type": "string",
+      "description": "Version number."
+    },
+    "description": {
+      "type": "string",
+      "description": "Package description."
+    },
+    "main": {
+      "type": "string",
+      "description": "Main entry point."
+    },
+    "scripts": {
+      "type": "object",
+      "description": "Package scripts."
+    },
+    "dependencies": {
+      "type": "object",
+      "description": "Package dependencies."
+    },
+    "devDependencies": {
+      "type": "object",
+      "description": "Package development dependencies."
+    },
+    "engines": {
+      "type": "object",
+      "description": "Node.js version requirements."
+    },
+    "author": {
+      "type": "string",
+      "description": "Package author."
+    },
+    "license": {
+      "type": "string",
+      "description": "Package license."
+    }
+  }
+}
